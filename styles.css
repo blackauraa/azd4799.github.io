@@ -1,0 +1,104 @@
+body {
+  background-color: #a85d32;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  text-align: center;
+  height: auto;
+  padding: 1%;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: black; /* Set background color to black */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  width: 20%;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: red;
+}
+
+section {
+  width: 70%;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  height: 600px;
+}
+
+/* To make the aside info go to the side of webpage */
+aside {
+  float: left;
+  padding: 21px;
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+  height: 602px;
+  overflow-y: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#table {
+  position: relative;
+  top: 20px;
+  margin: 0px auto;
+}
+
+.sidep {
+  font-size: small;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+}
